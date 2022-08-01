@@ -1,0 +1,25 @@
+.header {
+    padding: 5%;
+    text-align: center;
+    background: #602e09;
+    color: white;
+    font-size: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+body {
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-family: fantasy
+}
+
+img {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin: 15px;
+}

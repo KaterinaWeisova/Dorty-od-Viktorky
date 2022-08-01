@@ -1,0 +1,87 @@
+#vrsek {
+    border-radius: 2px;
+    padding: 40px;
+    text-align: center;
+    background: url(./../obrazky/cafe1.jpg);
+    color: white;
+    font-size: 20px;
+}
+
+.body {
+    padding: 0px;
+    font-size: medium;
+    text-align: center;
+    background-color: #ffffff;
+    color: #0a0603;
+}
+
+.text {
+    align-items: stretch;
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    background-color: #ffffff;
+    color: #554f4f;
+}
+
+.header {
+    padding: 5%;
+    text-align: center;
+    background: #602e09;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    padding: 3%;
+    font-size: medium;
+    text-align: center;
+    background-color: #602e09;
+    color: white
+}
+
+@media screen and (min-width: 1024px) {
+    .fotkanase {
+        align-items: center;
+        width: 850px;
+        height: 450px;
+        padding: 5px;
+    }
+
+    .sklep {
+        width: 400px;
+        height: 250px;
+    }
+
+    .pred {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 200px;
+        margin-right: 200px;
+
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 1023px) {
+    .sklep {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        padding: 5px;
+        align-items: center;
+    }
+
+    .fotkanase {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .pred {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

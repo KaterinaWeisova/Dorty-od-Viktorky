@@ -1,0 +1,89 @@
+.header {
+    padding: 0%;
+    text-align: center;
+    background: #602e09;
+    color: white;
+    font-size: 20px;
+}
+
+.kontaktni-info {
+    padding: 5px;
+    border: 5px;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+
+    color: black;
+    width: 48%;
+    float: left;
+}
+
+.footer {
+    padding: 0%;
+    font-size: medium;
+    text-align: right;
+    background-color: #602e09;
+    color: white
+}
+
+#content {
+    width: 100%;
+}
+
+.text {
+    padding: 0px;
+    font-size: medium;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.mapouter {
+    width: 48%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    float: right;
+}
+
+
+
+.vseko {
+    display: flex;
+    padding: 10px
+}
+
+@media screen and (min-width: 1024px) {
+    .gmap_canvas {
+        width: 48%;
+        padding: 5px;
+        overflow: hidden;
+        float: right;
+        background: none !important;
+        height: 445px;
+        width: 604px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 1023px) {
+    .vseko {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px
+    }
+
+    .kontaktni-info {
+        width: 100%;
+    }
+
+    #gmap_canvas {
+        width: 100%;
+    }
+
+    .gmap_canvas {
+        width: 100%;
+        padding: 5px;
+        background: none !important;
+    }
+}
