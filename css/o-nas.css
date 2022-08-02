@@ -2,7 +2,7 @@
     border-radius: 2px;
     padding: 40px;
     text-align: center;
-    background: url(./../obrazky/cafe1.jpg);
+    background: url(./../hedr/Návrh\ bez\ názvu\(2\).png);
     color: white;
     font-size: 20px;
 }
@@ -27,7 +27,7 @@
 .header {
     padding: 5%;
     text-align: center;
-    background: #602e09;
+    background: #52003e;
     color: white;
     font-size: 20px;
 }
@@ -36,7 +36,7 @@ footer {
     padding: 3%;
     font-size: medium;
     text-align: center;
-    background-color: #602e09;
+    background-color: #52003e;
     color: white
 }
 

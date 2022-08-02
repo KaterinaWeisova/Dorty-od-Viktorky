@@ -68,19 +68,19 @@ a:hover{
     min-width: 250px;
     max-width: 250px;
     min-height: 100vh;
-    background: #ba8760;
+    background: #890067;
     color: #fff;
     transition: all 0.3s;
 }
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #ba8760 (229 43% 20%);
+    background: #890067 (229 43% 20%);
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #ba8760;
+    border-bottom: 1px solid #890067;
 }
 
 #sidebar ul p {
@@ -95,27 +95,27 @@ a:hover{
 }
 
 #sidebar ul li a:hover {
-    color: #602e09;
+    color: #52003e;
     background: #fff;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #602e09;
+    background: #52003e;
 }
 
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #ba8760;
+    background: #890067;
 }
 
 .footer {
     height: 100px;
     width: 100%;
     position: fixed;
-    background: #602e09;
+    background: #52003e;
     color: bisque;
     display: flex;
     justify-content: space-evenly;
@@ -124,18 +124,18 @@ ul ul a {
 
 .btn-info {
     color: #fff;
-    background-color: #ba8760;
-    border-color: #ba8760;
+    background-color: #890067;
+    border-color: #890067;
 }
 
 .btn-info:hover {
     color: #fff;
-    background-color: #602e09;
-    border-color: #602e09;
+    background-color: #52003e;
+    border-color: #52003e;
 }
 
 .btn-info:active {
     color: #fff;
-    background-color: #602e09 !important;
-    border-color: #602e09 !important;
+    background-color: #52003e !important;
+    border-color: #52003e !important;
 }
