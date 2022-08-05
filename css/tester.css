@@ -6,4 +6,14 @@ table {
     height: 70px;
   }
   ... tabulka
+
+  img {
+    opacity: 0.5;
+  }
+  ... svetlejsi obr img
+  div {
+    background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
+  }
+  ... img pozadi na %
+
   
